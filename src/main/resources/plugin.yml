@@ -1,0 +1,23 @@
+name: VerySimpleParticles
+version: '${version}'
+main: rip.shukaaa.testyay.Main
+api-version: '1.19'
+commands:
+    changeparticle:
+        description: Changes the particle
+        usage: /<command> <particle>
+        aliases:
+            - cp
+        permission: vsp.changeparticle
+    changeamount:
+        description: Changes the amount of particles of the player
+        usage: /<command> <amount>
+        aliases:
+            - ca
+        permission: vsp.changeamount
+    changesettings:
+        description: Changes the settings of the particle
+        usage: /<command> <setting> <flag>
+        aliases:
+            - cs
+        permission: vsp.changesettings
